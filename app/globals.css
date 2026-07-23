@@ -1,15 +1,2 @@
-:root {
-  --shams-black: #060D06;
-  --shams-dark: #0D1A0D;
-  --shams-surface: #132613;
-  --shams-card: #1A3320;
-  --shams-light: #4CAF50;
-  --shams-neon: #76FF03;
-  --shams-teal: #00ACC1;
-}
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { background: var(--shams-black); color: #fff; font-family: Inter, sans-serif; }
-.btn-primary { background: #4CAF50; color: #060D06; padding: 12px 28px; border-radius: 8px; font-weight: 700; border: none; cursor: pointer; }
-.btn-primary:hover { background: #76FF03; }
-.btn-outline { background: transparent; border: 2px solid #4CAF50; color: #4CAF50; padding: 12px 28px; border-radius: 8px; font-weight: 700; cursor: pointer; }
-input, select { background: #132613; border: 1px solid
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#060D06;color:#fff;font-family:Inter,sans-serif}
