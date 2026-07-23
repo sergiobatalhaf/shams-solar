@@ -137,7 +137,7 @@ export default function StepSummary({ proposal, onSave, saving, saved }: Props) 
             fileName={`Proposta_SHAMS_${proposal.proposalNumber}_${client.name?.replace(/\s+/g, '_')}.pdf`}
             className="flex-1"
           >
-{(({ loading }: any): any => (
+{({ loading }) => (
               <button className="w-full btn-primary flex items-center justify-center gap-2 py-4 text-base">
                 {loading ? <Loader2 size={20} className="animate-spin" /> : <FileDown size={20} />}
                 {loading ? 'Gerando PDF...' : '📄 Baixar Proposta em PDF'}
